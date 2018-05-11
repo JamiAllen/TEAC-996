@@ -1,0 +1,18 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("red")
+wn.title("Hi, I'm Ben!")
+
+ben = turtle.Turtle()
+ben.color("blue")
+
+ben.forward(50)
+ben.left(90)
+ben.forward(50)
+ben.left(90)
+ben.forward(50)
+ben.left(90)
+ben.forward(50)
+ben.left(90)
+
+wn.mainloop()
